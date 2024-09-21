@@ -1,1 +1,40 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: transparent;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+input {
+    margin: 10px 10px;
+    padding: 5px;
+    font-size: 16px;
+}
