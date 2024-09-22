@@ -10,7 +10,7 @@ function changeColor() {
 	const blockId=document.getElementById("block_id").value;
 	const color=document.getElementById("colour_id").value;
 	reset();
-	console.log(blockId);
+	// console.log(blockId);
 	const grid=document.getElementById(blockId);
 	if(grid){
 		grid.style.backgroundColor=color;
