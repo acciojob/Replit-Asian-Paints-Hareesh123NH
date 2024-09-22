@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const change_btn=document.getElementById("change_button");
-const reset_btn=document.getElementById("Reset");
+const reset_btn=document.getElementById("reset_button");
 
 change_btn.addEventListener("click",changeColor);
 reset_btn.addEventListener("click",reset);
@@ -26,7 +26,7 @@ function reset() {
 	});
 }
 
-const container=document.getElementById("grid-container");
+const container=document.querySelector(".grid-container");
 const block=document.getElementById("block_id");
 container.addEventListener("click",(e)=>{
 	block.value=e.target.id;
